@@ -7,7 +7,8 @@ import os
 from apiclient import discovery
 
 
-KEY_FOR_GOOGLE_SERVICE = os.environ.get('GOOGLE_KEY')  # This key is found in google console
+KEY_FOR_GOOGLE_SERVICE = os.environ.get('GOOGLE_KEY')  # This key is found in google console.
+# Click the button that says "Enable the Google Sheets API" in https://developers.google.com/sheets/api/quickstart/python
 ID_OF_GOOGLE_SHEET = 'GOOGLE_SHEET_ID' # This id can be found in the google sheet's url
 # https://docs.google.com/spreadsheets/d/1wZKactDqiDfTPxdZys7klAksJMTLtu1RIj4ztALCtmA/edit#gid=0
 # For the above example url of a dummy spreadsheet, the google sheet id is given below which is between /d/ and /edit
